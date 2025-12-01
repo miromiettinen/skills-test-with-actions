@@ -13,7 +13,7 @@ jobs:
 
     steps:
       # Check out the repository to the runner
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       # Run markdown lint with vfile-reporter-json
       - name: Run markdown lint
